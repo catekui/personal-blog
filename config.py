@@ -27,6 +27,7 @@ class ProdConfig(Config):
    
 
 
+
 class TestConfig(Config):
     SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://wangui:1234cate@localhost/cateblog'
 
